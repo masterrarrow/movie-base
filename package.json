@@ -46,7 +46,6 @@
     ]
   },
   "devDependencies": {
-    "bootstrap": "^4.4.1",
-    "prop-types": "^15.7.2"
+    "bootstrap": "^4.4.1"
   }
 }
