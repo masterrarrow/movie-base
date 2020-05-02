@@ -25,4 +25,4 @@ const Movie = ({ movie, link }) => {
     }
 };
 
-export default Movie;
+export default React.memo(Movie);
