@@ -78,8 +78,6 @@ const Home = () => {
         }
     };
 
-    console.log(movies);
-
     // Loading animation
     if (loading) return (<Loading/>);
 
