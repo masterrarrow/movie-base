@@ -125,7 +125,7 @@ const MovieDetails = ({ match }) => {
                         </div>
                         <div className="movie-genre">
                             Genre:
-                            <span className="ml-2" style={{color: "rgb(15,205,140)"}}>
+                            <span className="ml-2" style={{color: "rgb(0,205,58)"}}>
                                 {item.genre}
                             </span>
                         </div>
