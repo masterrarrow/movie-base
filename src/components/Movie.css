@@ -1,0 +1,54 @@
+.movie-tooltip {
+    min-width: 380px;
+    max-width: 380px;
+    height: 270px;
+    background-color: lightgrey;
+    color: grey;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: -1px -1px 7px 7px lightgrey;
+}
+
+.styled-card {
+    width: 18rem;
+    margin: 1.5rem;
+}
+
+.title {
+    color: rgb(0, 172, 193);
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.rating {
+    font-size: small;
+    color: darkorange;
+}
+
+.description {
+    font-size: small;
+    line-height: 1.8;
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+}
+
+.text {
+    font-size: small;
+    line-height: 1.5;
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+}
+
+.movie-card {
+    box-shadow: 0 5px 15px lightgrey;
+    width: 18rem;
+    margin: 1.5rem;
+}
+
+.movie-card:hover {
+    box-shadow: 0 5px 30px lightgrey;
+}
+
+.row {
+    font-size: small;
+}

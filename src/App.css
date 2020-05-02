@@ -1,0 +1,235 @@
+:root {
+    --background-color: #282c34;
+    background-color: var(--background-color);
+}
+
+.App {
+    text-align: center;
+    background-color: var(--background-color);
+}
+
+.App-header {
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    max-width: 115rem;
+    margin-left: 3.0rem;
+    margin-right: auto
+}
+
+.navbar {
+    background-color: var(--background-color);
+    box-shadow: 0 2px 5px lightgrey;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 1rem;
+    z-index: 1;
+    width: 100%;
+    margin: auto;
+    top: 0;
+}
+
+.navbar-brand:hover {
+    font-style: italic;
+}
+
+.nav-link:hover {
+    font-style: italic;
+}
+
+.dropdown-item:hover {
+    font-style: italic;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.search {
+    background-color: gainsboro;
+}
+
+.search:hover {
+    background-color: white;
+}
+
+.input-box {
+    background-color: gainsboro;
+}
+
+.input-box:hover {
+    background-color: white;
+}
+
+.logout {
+    background-color: var(--background-color);
+    width: 30%;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    text-align: left;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.sign-up {
+    background-color: var(--background-color);
+    transform: translate(0%, 40%);
+    text-align: left;
+}
+
+.sign-in {
+    background-color: var(--background-color);
+    transform: translate(0%, 60%);
+    text-align: left;
+}
+
+.sing-in-card {
+    box-shadow: 0 5px 15px lightgrey;
+}
+
+.card {
+    background-color: var(--background-color);
+    border-color: white;
+    color: white;
+}
+
+.text-box {
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.text-box:hover {
+    border-bottom: 2px solid lightblue;
+}
+
+.text-box input {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.text-box input:enabled {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.text-box span {
+    background-color: transparent;
+    border: none;
+    font-size: x-large;
+    color: white;
+    font-weight: bolder;
+}
+
+.new-movie {
+    background-color: var(--background-color);
+    transform: translate(0%, 3%);
+    text-align: left;
+}
+
+.new-movie-card {
+    box-shadow: 0 5px 15px lightgrey;
+}
+
+.page-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-dual-ring:after {
+    margin-top: 5rem;
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 6px solid #ffd488;
+    border-color: #ffd488 transparent #ffd488 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.error {
+    margin-top: 7rem;
+}
+
+.movie-title {
+    color: wheat;
+    font-weight: bold;
+    transform: translate(0%, -100%);
+    font-size: medium;
+}
+
+.col-form-label {
+    font-size: medium;
+}
+
+.profile {
+    display: flex;
+    margin-top: 6rem;
+    margin-left: 6rem;
+    text-align: left;
+    width: 40rem;
+    box-shadow: 0 5px 15px lightgrey;
+}
+
+.search-results-text {
+    color: rgb(0, 172, 193);
+}
+
+.pagination {
+    box-shadow: 0 0px 5px lightgrey;
+}
+
+.page-link {
+    background-color: var(--background-color);
+    font-size: small;
+    color: rgb(0, 172, 193);
+    border-color: #718393;
+}
+
+.page-link:hover {
+    /* background-color: rgb(133, 156, 193); */
+    background-color: rgb(145, 193, 169);
+    color: rgb(18, 32, 193);
+    border-color: #718393;
+}
+
+.page-item.disabled .page-link {
+    color: #718393;
+    pointer-events: none;
+    cursor: auto;
+    background-color: var(--background-color);
+    border-color: #718393;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    border-color: #718393;
+    /* background-color: #526993; */
+     background-color: rgb(137, 150, 193);
+}

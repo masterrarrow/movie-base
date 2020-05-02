@@ -1,0 +1,51 @@
+.movie-details {
+    top: 0.5rem;
+    border: none;
+    align-items: center;
+}
+
+.detail-movie-title {
+    color: rgb(0, 172, 193);
+    text-align: left;
+    margin-left: -21em;
+    margin-right: 1em;
+}
+
+.styled-row {
+    margin-top: 0.5em;
+    width: 100em;
+}
+
+.column {
+    margin-top: 2em;
+    text-align: left;
+}
+
+.movie-description {
+    font-size: medium;
+    margin-top: 1em;
+    line-height: 1.8;
+    margin-left: -1em;
+    width: 950px;
+}
+
+.movie-genre {
+    font-size: medium;
+    margin-top: 2em;
+    margin-left: -1em;
+}
+
+.movie-text {
+    font-size: medium;
+    margin-top: 0.5em;
+    margin-left: -1em;
+}
+
+.movie-rating {
+    font-size: small;
+    color: darkorange;
+}
+
+.row {
+    font-size: small;
+}
