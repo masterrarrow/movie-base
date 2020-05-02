@@ -10,4 +10,4 @@ const VideoFrame = ({ id, trailer }) => {
 };
 
 
-export default VideoFrame;
+export default React.memo(VideoFrame);
